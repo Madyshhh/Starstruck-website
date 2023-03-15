@@ -1,0 +1,146 @@
+@media (min-width: 45em){
+
+    .form-container{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+
+    .login-form input{
+        font-family: 'Poppins', sans-serif;
+        margin: 0 auto;
+        width: 50%;
+        height: 50px;
+        display: block;
+        clear:both;
+        border: solid 1px black;
+        background-color: rgba(0, 0, 0, 0.116);
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+    .login-form input[name=username]{
+       margin-top: 30px;
+    }
+
+    .login-form input[name=password]{
+        margin-top: 10px;
+    }
+
+    .login-form button{
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+        width: 20%;
+        height: 50px;
+        border: none;
+        background-color: #932193;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .forgot-password a{
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
+    }
+
+    .forgot-password a:hover{
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.685);
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.1s;
+    }
+
+    .login-form .signup-button{
+        display: none;
+    }
+}
+
+@media (max-width: 45rem){
+
+    .form-container{
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    .login-form input{
+        font-family: 'Poppins', sans-serif;
+        margin: 0 auto;
+        width: 100%;
+        height: 50px;
+        display: block;
+        clear:both;
+        border: solid 1px black;
+        background-color: rgba(0, 0, 0, 0.116);
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+    .login-form input[name=Email]{
+       margin-top: 30px;
+    }
+
+    .login-form input[name=Password]{
+        margin-top: 10px;
+    }
+
+    .login-form button{
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+        width: 101%;
+        height: 50px;
+        border: none;
+        background-color: #932193;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .forgot-password a{
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
+    }
+
+    .forgot-password a:hover{
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.685);
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+    }
+
+    a.signup-button{
+        display: inline-block;
+        width: 100%;
+        margin-top: 200px;
+        text-align: center;
+        background-color: #932193;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 300;
+        color: white;
+    }
+
+    a.signup-button:hover{
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.685);
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    footer{
+        height: 100px;
+    }
+}

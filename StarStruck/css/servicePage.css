@@ -1,0 +1,70 @@
+nav{
+    margin-bottom: 20px;
+}
+
+p{
+    color: white;
+}
+
+
+.content-box{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.content-picture{
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 10px;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.name{
+    margin: 0;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+.type, .content{
+    margin: 0;
+    font-size: 1vw;
+    font-weight: 300;
+    color: rgb(199, 199, 199);
+}
+
+.description{
+    margin: 0;
+    font-weight: 300;
+    font-size: 1vw;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.price-wrapper{
+    grid-row-start: 4;
+    align-self: end;
+}
+
+.price{
+    font-weight: bolder;
+    font-size: 1.2vw;
+    margin: 0;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    align-self: end;
+    background-color: #932193;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}

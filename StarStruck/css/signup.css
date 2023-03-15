@@ -1,0 +1,139 @@
+@media (min-width: 45em){
+.form-container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.left-side{
+    float:left;
+    width: 45%;
+    height: 450px;
+}
+
+.right-side{
+    float: right;
+    width: 53%;
+    border-left: solid 2px black;
+    height: 450px;
+}
+
+.signup-form input{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width: 90%;
+    height: 50px;
+    display: block;
+    clear:both;
+    border: solid 1px black;
+    background-color: rgba(0, 0, 0, 0.116);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.form-container button{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;
+    border: none;
+    background-color: #932193;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.terms{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.terms a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+footer{
+    height: 200px;
+}
+
+}
+@media (max-width: 45rem){
+.main-heading{
+ margin-top: 30px;
+}
+
+.form-container{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.left-side{
+    float:left;
+    width: 100%;
+    height: 230px;
+}
+
+.right-side{
+    float: right;
+    width: 100%;
+    border-top: solid 2px black;
+    
+}
+
+.signup-form input{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width: 90%;
+    height: 50px;
+    display: block;
+    clear:both;
+    border: solid 1px black;
+    background-color: rgba(0, 0, 0, 0.116);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.form-container button{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;
+    border: none;
+    background-color: #932193;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.terms{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.terms a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.nav-list{
+    display: none;
+}
+
+footer{
+    height: 100px;
+}
+}

@@ -1,0 +1,88 @@
+@media (min-width: 45em){
+
+.main-heading{
+    margin-top: 200px;
+    margin-bottom: 10px;
+    width: 90%;
+    font-family:'Staatliches', cursive;
+    font-size: 55px;
+}
+
+.bottom-heading{
+    position: relative;
+    margin-top: 0;
+    width: 70%;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.signup{
+    display: inline-block;
+    background-color: #932193;
+    padding: 10px 150px 10px 150px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+}
+
+
+@media (max-width: 45rem){
+    .main-heading{
+        margin-bottom: 10px;
+        width: 100%;
+        font-family:'Staatliches', cursive;
+        font-size: 35px;
+    }
+    
+    .bottom-heading{
+        position: relative;
+        margin-top: 0;
+        width: 100%;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    .signup{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        background-color: #932193;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 500;
+        color: white;
+    }
+
+    .login{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        background-color: #932193;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 500;
+        color: white;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+}
+
+.signup:hover, .login:hover{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.685);
+    -webkit-transition-duration: 0.2s;
+   transition-duration: 0.2s;
+}

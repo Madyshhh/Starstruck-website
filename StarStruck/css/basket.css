@@ -1,0 +1,120 @@
+.main-heading{
+    border-bottom: solid 1.5px black;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+
+.basket-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.product{
+    margin: 0 auto;
+    display: grid;
+    width: 85%;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.041);
+}
+
+.line-between{
+    border-bottom: solid 1.5px black;
+}
+
+.product-heading , .description-heading , .price-heading {
+    font-weight: 400;
+}
+
+p{
+    font-weight: 300;
+    color: white;
+}
+
+.product-heading{
+    grid-column-start: 1;
+    text-align: center;
+}
+
+.description-heading{
+    grid-column-start: 2;
+    text-align: center;
+}
+
+.price-heading{
+    grid-column-start: 3;
+    text-align: center;
+}
+
+.description{
+    text-align: left;
+
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product-price{
+    text-align: center;
+}
+
+.add-or-remove-buttons{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    font-weight: 400;
+}
+
+.add-or-remove-buttons p{
+    font-weight: 400;
+}
+
+.button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #932193;
+    color: white;
+    font-weight: bold;
+}
+
+.show-total-checkout{
+ display: grid;
+ grid-template-rows: 1fr 1fr;
+ width: 20%;
+ float: right;
+ margin-right: 50px;
+}
+
+.show-total-checkout p{
+    font-weight: 400;
+}
+
+#show-total{
+    float: left;
+}
+
+#total-price{
+    float: right;
+}
+
+.proceed-checkout{
+    font-family: 'Poppins';
+    border-radius: 10px;
+    border: none;
+    background-color: #932193;
+    color: white;
+    font-weight: 400;
+}
